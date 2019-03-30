@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
 
+import Flatlist from '../containers/flat_list';
+import Map from '../containers/map';
+
 class App extends Component {
   render () {
-    <div>
-      <Flatlist />
-      <Map />
-    </div>
+    return (
+      <div className="row">
+        <Flatlist />
+        <Map />
+      </div>
+    );
   }
 }
 
