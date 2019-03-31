@@ -2,9 +2,7 @@ body {
   font-family: Helvetica;
 }
 
-#root {
-  height: 100vh;
+.flat_list {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
 }
