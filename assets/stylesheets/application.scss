@@ -1,8 +1,16 @@
+@import "card";
+
 body {
   font-family: Helvetica;
 }
 
-.flat_list {
+.flat-list {
   display: flex;
   flex-wrap: wrap;
+}
+
+.flat {
+  flex: 50% 0 0;
+  cursor: pointer;
+  border: 6px solid transparent;
 }
